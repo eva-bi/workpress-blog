@@ -1,3 +1,15 @@
+server 'ubuntu@54.175.233.179', roles: %w{app},
+   ssh_options: {
+     user: "ubuntu", # overrides user setting above
+     keys: "../aws-tuanbido.pem",
+     forward_agent: false,
+     # auth_methods: %w(publickey password)
+     # password: "please use keys"
+   }
+set :user,       'ubuntu'
+set :group,      'ubuntu'
+set :branch,     'master'
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
