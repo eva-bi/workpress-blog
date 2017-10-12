@@ -8,7 +8,7 @@ server 'ubuntu@54.175.233.179', roles: %w{app},
    }
 set :user,       'ubuntu'
 set :group,      'ubuntu'
-set :branch,     'master'
+set :branch, ENV['BRANCH'] || 'master'
 
 # server-based syntax
 # ======================
