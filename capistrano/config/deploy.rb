@@ -34,3 +34,27 @@ set :deploy_to, "/srv/www/workpress-blog"
 
 # Default value for keep_releases is 5
 set :keep_releases, 5
+
+namespace :deploy do
+
+  # sudoでパーミッション変更したファイルがあるとデフォルトの削除タスクで消えないので、sudoをつけて再定義
+  Rake::Task["deploy:cleanup"].clear
+  desc 'Clean up old releases'
+  task :cleanup do
+    on release_roles :all do |host|
+      releases = capture(:ls, '-xtr', releases_path).split
+      if releases.count >= fetch(:keep_releases)
+        info t(:keeping_releases, host: host.to_s, keep_releases: fetch(:keep_releases), releases: releases.count)
+        directories = (releases - releases.last(fetch(:keep_releases)))
+        if directories.any?
+          directories_str = directories.map do |release|
+            releases_path.join(release)
+          end.join(" ")
+          execute :sudo, :rm, '-rf', directories_str
+        else
+          info t(:no_old_releases, host: host.to_s, keep_releases: fetch(:keep_releases))
+        end
+      end
+    end
+  end
+end
