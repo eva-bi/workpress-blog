@@ -8,3 +8,195 @@
   INFO ---------------------------------------------------------------------------
   INFO START 2017-10-07 15:24:26 +0700 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-09 14:17:00 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-09 14:17:08 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 15:17:32 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 15:46:55 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 15:50:49 +0700 cap production deploy::check
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 15:51:03 +0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [4b19e9d5] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.175.233.179
+ DEBUG [4b19e9d5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4b19e9d5] Finished in 4.179 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 100.0%
+  INFO [660d4bb0] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh as ubuntu@54.175.233.179
+ DEBUG [660d4bb0] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh
+  INFO [660d4bb0] Finished in 1.168 seconds with exit status 0 (successful).
+  INFO [fbe62eb4] Running /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD as ubuntu@54.175.233.179
+ DEBUG [fbe62eb4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD )
+ DEBUG [fbe62eb4] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [fbe62eb4] 	Permission denied (publickey).
+ DEBUG [fbe62eb4] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 16:29:49 +0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [1bfcc72e] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.175.233.179
+ DEBUG [1bfcc72e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1bfcc72e] Finished in 3.828 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 100.0%
+  INFO [06676fa4] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh as ubuntu@54.175.233.179
+ DEBUG [06676fa4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh
+  INFO [06676fa4] Finished in 0.858 seconds with exit status 0 (successful).
+  INFO [6ac335a5] Running /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD as ubuntu@54.175.233.179
+ DEBUG [6ac335a5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD )
+ DEBUG [6ac335a5] 	Permission denied (publickey).
+ DEBUG [6ac335a5] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 16:34:42 +0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [6a291ac9] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.175.233.179
+ DEBUG [6a291ac9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6a291ac9] Finished in 3.575 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 100.0%
+  INFO [220689ba] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh as ubuntu@54.175.233.179
+ DEBUG [220689ba] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh
+  INFO [220689ba] Finished in 0.942 seconds with exit status 0 (successful).
+  INFO [8a150993] Running /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD as ubuntu@54.175.233.179
+ DEBUG [8a150993] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD )
+ DEBUG [8a150993] 	Permission denied (publickey).
+ DEBUG [8a150993] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 16:42:32 +0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [75d4d8c3] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.175.233.179
+ DEBUG [75d4d8c3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [75d4d8c3] Finished in 4.096 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 100.0%
+  INFO [3f55faf8] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh as ubuntu@54.175.233.179
+ DEBUG [3f55faf8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh
+  INFO [3f55faf8] Finished in 0.981 seconds with exit status 0 (successful).
+  INFO [5aaa469e] Running /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD as ubuntu@54.175.233.179
+ DEBUG [5aaa469e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD )
+ DEBUG [5aaa469e] 	5b61bf8b296dd63feae942c5a6f6570a3112122e	HEAD
+  INFO [5aaa469e] Finished in 0.941 seconds with exit status 0 (successful).
+  INFO [18f878f1] Running /usr/bin/env mkdir -p /srv/www/workpress-blog/shared /srv/www/workpress-blog/releases as ubuntu@54.175.233.179
+ DEBUG [18f878f1] Command: /usr/bin/env mkdir -p /srv/www/workpress-blog/shared /srv/www/workpress-blog/releases
+ DEBUG [18f878f1] 	mkdir: 
+ DEBUG [18f878f1] 	cannot create directory ‘/srv/www/workpress-blog’
+ DEBUG [18f878f1] 	: Permission denied
+ DEBUG [18f878f1] 	
+ DEBUG [18f878f1] 	mkdir: 
+ DEBUG [18f878f1] 	cannot create directory ‘/srv/www/workpress-blog’
+ DEBUG [18f878f1] 	: Permission denied
+ DEBUG [18f878f1] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 16:43:42 +0700 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [1e632220] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.175.233.179
+ DEBUG [1e632220] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1e632220] Finished in 3.970 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 100.0%
+  INFO [1932afdb] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh as ubuntu@54.175.233.179
+ DEBUG [1932afdb] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh
+  INFO [1932afdb] Finished in 0.901 seconds with exit status 0 (successful).
+  INFO [ffcf45c2] Running /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD as ubuntu@54.175.233.179
+ DEBUG [ffcf45c2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD )
+ DEBUG [ffcf45c2] 	5b61bf8b296dd63feae942c5a6f6570a3112122e	HEAD
+  INFO [ffcf45c2] Finished in 1.077 seconds with exit status 0 (successful).
+  INFO [db2a0ca3] Running /usr/bin/env mkdir -p /srv/www/workpress-blog/shared /srv/www/workpress-blog/releases as ubuntu@54.175.233.179
+ DEBUG [db2a0ca3] Command: /usr/bin/env mkdir -p /srv/www/workpress-blog/shared /srv/www/workpress-blog/releases
+  INFO [db2a0ca3] Finished in 0.785 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-10 16:44:22 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4c88f965] Running /usr/bin/env mkdir -p /tmp as ubuntu@54.175.233.179
+ DEBUG [4c88f965] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4c88f965] Finished in 4.253 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-tuanbido-production-vt.sh 100.0%
+  INFO [18b69071] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh as ubuntu@54.175.233.179
+ DEBUG [18b69071] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-tuanbido-production-vt.sh
+  INFO [18b69071] Finished in 0.784 seconds with exit status 0 (successful).
+  INFO [cfbf56c5] Running /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD as ubuntu@54.175.233.179
+ DEBUG [cfbf56c5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git ls-remote git@github.com:eva-bi/workpress-blog.git HEAD )
+ DEBUG [cfbf56c5] 	5b61bf8b296dd63feae942c5a6f6570a3112122e	HEAD
+  INFO [cfbf56c5] Finished in 0.936 seconds with exit status 0 (successful).
+  INFO [abbd9080] Running /usr/bin/env mkdir -p /srv/www/workpress-blog/shared /srv/www/workpress-blog/releases as ubuntu@54.175.233.179
+ DEBUG [abbd9080] Command: /usr/bin/env mkdir -p /srv/www/workpress-blog/shared /srv/www/workpress-blog/releases
+  INFO [abbd9080] Finished in 1.492 seconds with exit status 0 (successful).
+ DEBUG [6e388292] Running [ -f /srv/www/workpress-blog/current/REVISION ] as ubuntu@54.175.233.179
+ DEBUG [6e388292] Command: [ -f /srv/www/workpress-blog/current/REVISION ]
+ DEBUG [6e388292] Finished in 1.016 seconds with exit status 1 (failed).
+ DEBUG [1dd14df8] Running [ -f /srv/www/workpress-blog/repo/HEAD ] as ubuntu@54.175.233.179
+ DEBUG [1dd14df8] Command: [ -f /srv/www/workpress-blog/repo/HEAD ]
+ DEBUG [1dd14df8] Finished in 0.788 seconds with exit status 1 (failed).
+ DEBUG [78fa4f85] Running if test ! -d /srv/www/workpress-blog; then echo "Directory does not exist '/srv/www/workpress-blog'" 1>&2; false; fi as ubuntu@54.175.233.179
+ DEBUG [78fa4f85] Command: if test ! -d /srv/www/workpress-blog; then echo "Directory does not exist '/srv/www/workpress-blog'" 1>&2; false; fi
+ DEBUG [78fa4f85] Finished in 1.161 seconds with exit status 0 (successful).
+  INFO [9a82563e] Running /usr/bin/env git clone --mirror git@github.com:eva-bi/workpress-blog.git /srv/www/workpress-blog/repo as ubuntu@54.175.233.179
+ DEBUG [9a82563e] Command: cd /srv/www/workpress-blog && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git clone --mirror git@github.com:eva-bi/workpress-blog.git /srv/www/workpress-blog/repo )
+ DEBUG [9a82563e] 	Cloning into bare repository '/srv/www/workpress-blog/repo'...
+  INFO [9a82563e] Finished in 1.946 seconds with exit status 0 (successful).
+ DEBUG [b9470ee6] Running if test ! -d /srv/www/workpress-blog/repo; then echo "Directory does not exist '/srv/www/workpress-blog/repo'" 1>&2; false; fi as ubuntu@54.175.233.179
+ DEBUG [b9470ee6] Command: if test ! -d /srv/www/workpress-blog/repo; then echo "Directory does not exist '/srv/www/workpress-blog/repo'" 1>&2; false; fi
+ DEBUG [b9470ee6] Finished in 1.404 seconds with exit status 0 (successful).
+  INFO [f99f28ad] Running /usr/bin/env git remote set-url origin git@github.com:eva-bi/workpress-blog.git as ubuntu@54.175.233.179
+ DEBUG [f99f28ad] Command: cd /srv/www/workpress-blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git remote set-url origin git@github.com:eva-bi/workpress-blog.git )
+  INFO [f99f28ad] Finished in 0.825 seconds with exit status 0 (successful).
+  INFO [c4ce3b9c] Running /usr/bin/env git remote update --prune as ubuntu@54.175.233.179
+ DEBUG [c4ce3b9c] Command: cd /srv/www/workpress-blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c4ce3b9c] 	Fetching origin
+  INFO [c4ce3b9c] Finished in 1.395 seconds with exit status 0 (successful).
+ DEBUG [5bf89e86] Running if test ! -d /srv/www/workpress-blog/repo; then echo "Directory does not exist '/srv/www/workpress-blog/repo'" 1>&2; false; fi as ubuntu@54.175.233.179
+ DEBUG [5bf89e86] Command: if test ! -d /srv/www/workpress-blog/repo; then echo "Directory does not exist '/srv/www/workpress-blog/repo'" 1>&2; false; fi
+ DEBUG [5bf89e86] Finished in 2.766 seconds with exit status 0 (successful).
+  INFO [f6c30e6e] Running /usr/bin/env mkdir -p /srv/www/workpress-blog/releases/20171010094432 as ubuntu@54.175.233.179
+ DEBUG [f6c30e6e] Command: cd /srv/www/workpress-blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env mkdir -p /srv/www/workpress-blog/releases/20171010094432 )
+  INFO [f6c30e6e] Finished in 1.039 seconds with exit status 0 (successful).
+  INFO [66650d52] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/www/workpress-blog/releases/20171010094432 as ubuntu@54.175.233.179
+ DEBUG [66650d52] Command: cd /srv/www/workpress-blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/www/workpress-blog/releases/20171010094432 )
+  INFO [66650d52] Finished in 1.576 seconds with exit status 0 (successful).
+ DEBUG [b5c026c8] Running if test ! -d /srv/www/workpress-blog/repo; then echo "Directory does not exist '/srv/www/workpress-blog/repo'" 1>&2; false; fi as ubuntu@54.175.233.179
+ DEBUG [b5c026c8] Command: if test ! -d /srv/www/workpress-blog/repo; then echo "Directory does not exist '/srv/www/workpress-blog/repo'" 1>&2; false; fi
+ DEBUG [b5c026c8] Finished in 1.642 seconds with exit status 0 (successful).
+ DEBUG [4805f10e] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@54.175.233.179
+ DEBUG [4805f10e] Command: cd /srv/www/workpress-blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-tuanbido-production-vt.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [4805f10e] 	5b61bf8b296dd63feae942c5a6f6570a3112122e
+ DEBUG [4805f10e] Finished in 0.515 seconds with exit status 0 (successful).
+ DEBUG [45fc7a1e] Running if test ! -d /srv/www/workpress-blog/releases/20171010094432; then echo "Directory does not exist '/srv/www/workpress-blog/releases/20171010094432'" 1>&2; false; fi as ubuntu@54.175.233.179
+ DEBUG [45fc7a1e] Command: if test ! -d /srv/www/workpress-blog/releases/20171010094432; then echo "Directory does not exist '/srv/www/workpress-blog/releases/20171010094432'" 1>&2; false; fi
+ DEBUG [45fc7a1e] Finished in 0.780 seconds with exit status 0 (successful).
+  INFO [21d65d3f] Running /usr/bin/env echo "5b61bf8b296dd63feae942c5a6f6570a3112122e" >> REVISION as ubuntu@54.175.233.179
+ DEBUG [21d65d3f] Command: cd /srv/www/workpress-blog/releases/20171010094432 && /usr/bin/env echo "5b61bf8b296dd63feae942c5a6f6570a3112122e" >> REVISION
+  INFO [21d65d3f] Finished in 1.259 seconds with exit status 0 (successful).
+  INFO [e4cfaf03] Running /usr/bin/env ln -s /srv/www/workpress-blog/releases/20171010094432 /srv/www/workpress-blog/releases/current as ubuntu@54.175.233.179
+ DEBUG [e4cfaf03] Command: /usr/bin/env ln -s /srv/www/workpress-blog/releases/20171010094432 /srv/www/workpress-blog/releases/current
+  INFO [e4cfaf03] Finished in 1.732 seconds with exit status 0 (successful).
+  INFO [4223fa3f] Running /usr/bin/env mv /srv/www/workpress-blog/releases/current /srv/www/workpress-blog as ubuntu@54.175.233.179
+ DEBUG [4223fa3f] Command: /usr/bin/env mv /srv/www/workpress-blog/releases/current /srv/www/workpress-blog
+  INFO [4223fa3f] Finished in 2.568 seconds with exit status 0 (successful).
+ DEBUG [b3a2ee00] Running /usr/bin/env ls -x /srv/www/workpress-blog/releases as ubuntu@54.175.233.179
+ DEBUG [b3a2ee00] Command: /usr/bin/env ls -x /srv/www/workpress-blog/releases
+ DEBUG [b3a2ee00] 	20171010094432
+ DEBUG [b3a2ee00] Finished in 0.986 seconds with exit status 0 (successful).
+ DEBUG [a6272741] Running if test ! -d /srv/www/workpress-blog/releases; then echo "Directory does not exist '/srv/www/workpress-blog/releases'" 1>&2; false; fi as ubuntu@54.175.233.179
+ DEBUG [a6272741] Command: if test ! -d /srv/www/workpress-blog/releases; then echo "Directory does not exist '/srv/www/workpress-blog/releases'" 1>&2; false; fi
+ DEBUG [a6272741] Finished in 0.923 seconds with exit status 0 (successful).
+  INFO [aa8a6a75] Running /usr/bin/env echo "Branch master (at 5b61bf8b296dd63feae942c5a6f6570a3112122e) deployed as release 20171010094432 by vt" >> /srv/www/workpress-blog/revisions.log as ubuntu@54.175.233.179
+ DEBUG [aa8a6a75] Command: cd /srv/www/workpress-blog/releases && /usr/bin/env echo "Branch master (at 5b61bf8b296dd63feae942c5a6f6570a3112122e) deployed as release 20171010094432 by vt" >> /srv/www/workpress-blog/revisions.log
+  INFO [aa8a6a75] Finished in 1.774 seconds with exit status 0 (successful).
